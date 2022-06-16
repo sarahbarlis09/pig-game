@@ -169,3 +169,105 @@ main {
 .hidden {
   display: none;
 }
+
+/* Responsive Design */
+
+/* Responsive Design */
+@media all and (max-width: 800px) {
+  html {
+    font-size: 0.6em;
+  }
+
+  /* .game-rules p {
+    font-size: 1.4rem;
+  } */
+
+  .player-1-score,
+  .player-2-score {
+    margin-bottom: 24vh;
+  }
+
+  .player-1-current-score,
+  .player-2-current-score {
+    font-size: 1.2rem;
+    max-width: 120px;
+    height: 65px;
+  }
+
+  .btn {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    font-size: 1.4rem;
+  }
+
+  .btn-new {
+    top: 22vh;
+  }
+
+  .btn-roll {
+    bottom: 22vh;
+    font-size: 1.2rem;
+  }
+
+  .btn-hold {
+    bottom: 18vh;
+    font-size: 1.2rem;
+  }
+
+  i {
+    vertical-align: middle;
+  }
+}
+
+@media all and (max-width: 475px) {
+  html {
+    font-size: 0.4em;
+  }
+  /* 
+  .game-rules p {
+    font-size: 1.6rem;
+  } */
+
+  .player-1-score,
+  .player-2-score {
+    margin-bottom: 25vh;
+  }
+
+  .player-1-current-score,
+  .player-2-current-score {
+    font-size: 1.2rem;
+    max-width: 60px;
+    height: 45px;
+  }
+
+  .btn {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    font-size: 1.4rem;
+  }
+
+  .btn-new {
+    top: 22vh;
+  }
+
+  .btn-roll {
+    bottom: 25vh;
+    font-size: 1.2rem;
+  }
+
+  .btn-hold {
+    bottom: 21vh;
+    font-size: 1.2rem;
+  }
+
+  i {
+    vertical-align: middle;
+  }
+
+  .dice {
+    width: 80px;
+    top: 48vh;
+  }
+}
